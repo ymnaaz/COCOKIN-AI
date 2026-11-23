@@ -1,0 +1,14 @@
+# Ignore raw image datasets (heavy binary folders & restricted license datasets)
+images/
+mst-e_data/
+personal color.v1i.multiclass/train/*.jpg
+personal color.v1i.multiclass/valid/*.jpg
+personal color.v1i.multiclass/test/*.jpg
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
